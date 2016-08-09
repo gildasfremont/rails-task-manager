@@ -1,0 +1,4 @@
+<h2><%= @task.name %></h2>
+<p><%= @task.due_date %></p>
+<p><%= @task.done ? "Fait" : "À faire" %></p>
+<%= link_to "Retourner à la TO-DO", tasks_path %>
